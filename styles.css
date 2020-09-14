@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
+#opening {
+    border: 5px solid blue;
+    border-radius: 100px;
+    margin: 50px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#where-started {
+    margin: 20px;
+    text-align: center;
+}
+.text {
+    border: 5px solid red;
+    margin: 25px;
+    border-radius: 75px;
+    padding: 30px;
+}
+#footer {
+    border: 5px solid greenyellow;
+    border-radius: 50px;
+    margin: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    border: 5px solid #ffb545;
+    border-radius: 7.5px;
+}
