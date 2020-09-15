@@ -6,7 +6,7 @@
     position: fixed;
     height: 70px;
     width: 100%;
-    background: rgb(190, 167, 167);
+    background: rgb(208, 255, 209);
     display: flex;
     justify-content: space-between;
     
@@ -49,16 +49,30 @@
 #menu-items{
     position: absolute;
     top: 70px;
-    right: -88vw;
-    height: 100vh;
-    width: 80vw;
-    background: blue;
+    left: 100%;
+    height: 80vh;
+    width: 70%;
+    background: rgb(255, 215, 245);
+    /* border: 3px solid rgb(255, 194, 240); */
+    border-radius: 20px 0 0 20px;
     z-index: 4;
-    transition: right 1s ease-in-out;
+    /* opacity: 0; */
+    /* transition: right 1s ease-in-out; */
+    transition: left 400ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
 }
-.hamburger-menu:hover + #menu-items{
-    right: -25px;
+#menu:hover + #menu-items{
+    left: 30%;
 }
+/* .hamburger-menu:hover + #menu-items{
+    left: -170px;
+} */
 #menu-items:hover{
-    right: -25px;
+    left: 30%;
+}
+#menu-items a{
+    margin: 20px 0;
 }
